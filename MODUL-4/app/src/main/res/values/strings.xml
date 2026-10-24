@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simpanin</string>
+
+    <!-- MainActivity -->
+    <string name="title_gallery">Galeri Foto</string>
+    <string name="subtitle_count">%1$d foto · %2$d favorit</string>
+    <string name="label_foto">Foto %1$d</string>
+    <string name="desc_foto">Gambar galeri</string>
+    <string name="desc_favorit">Tandai favorit</string>
+    <string name="heart_off">♡</string>
+    <string name="heart_on">♥</string>
+    <string name="filter_all">Semua</string>
+    <string name="filter_1">Foto 1–5</string>
+    <string name="filter_2">Foto 6–10</string>
+    <string name="filter_3">Foto 11–15</string>
+    <string name="snackbar_foto">Foto %1$d dipilih</string>
+    <string name="snackbar_action">Tambah Bagian</string>
+
+    <!-- Menu -->
+    <string name="menu_second">Tambah Bagian</string>
+    <string name="menu_share">Bagikan</string>
+    <string name="menu_about">Tentang</string>
+    <string name="toast_about">Simpanin: simpan catatan, berkas, dan pengingat di satu tempat</string>
+    <string name="share_text">Simpan semua catatan dan pengingat pentingmu di Simpanin!</string>
+    <string name="share_chooser">Bagikan lewat</string>
+
+    <!-- SecondActivity -->
+    <string name="title_second">Tambah Bagian</string>
+    <string name="second_subtitle">Isi judul dan deskripsi untuk Bagian barumu</string>
+    <string name="second_message">Dibuka dari: %1$s</string>
+    <string name="label_lampiran">Lampiran</string>
+    <string name="hint_judul">Judul</string>
+    <string name="hint_deskripsi">Deskripsi (opsional)</string>
+    <string name="button_save">Simpan</string>
+    <string name="button_back">Kembali ke Galeri</string>
+    <string name="error_judul_kosong">Judul wajib diisi</string>
+    <string name="error_judul_panjang">Judul maksimal 100 karakter</string>
+    <string name="error_deskripsi_panjang">Deskripsi maksimal 2000 karakter</string>
+    <string name="toast_saved">Bagian “%1$s” disimpan (contoh)</string>
+</resources>

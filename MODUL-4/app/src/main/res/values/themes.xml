@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Simpanin_modul_3" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/simpanin_primary</item>
+        <item name="colorOnPrimary">@color/simpanin_on_primary</item>
+        <item name="colorSecondary">@color/simpanin_secondary</item>
+        <item name="colorOnSecondary">@color/simpanin_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/simpanin_chip_selected</item>
+        <item name="colorOnSecondaryContainer">@color/simpanin_on_chip_selected</item>
+        <item name="colorError">@color/simpanin_error</item>
+        <item name="android:colorBackground">@color/simpanin_background</item>
+        <item name="colorSurface">@color/simpanin_surface</item>
+        <item name="colorOnBackground">@color/simpanin_text_primary</item>
+        <item name="colorOnSurface">@color/simpanin_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/simpanin_text_secondary</item>
+
+        <item name="android:statusBarColor">@color/simpanin_gradient_start</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

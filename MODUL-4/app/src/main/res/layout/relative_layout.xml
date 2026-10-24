@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageItem"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:contentDescription="@string/desc_foto"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Simpanin.Rounded" />
+
+    <!-- Tombol favorit (kanan atas) -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnFav"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/desc_favorit"
+        app:cardBackgroundColor="@color/simpanin_scrim"
+        app:cardCornerRadius="17dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp">
+
+        <TextView
+            android:id="@+id/tvHeart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/heart_off"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Badge label (kiri bawah) -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/imageItem"
+        android:layout_alignBottom="@id/imageItem"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/simpanin_scrim"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp">
+
+        <TextView
+            android:id="@+id/labelItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:textAppearance="@style/TextAppearance.Simpanin.Badge" />
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

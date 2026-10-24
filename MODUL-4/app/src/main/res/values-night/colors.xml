@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="simpanin_primary">#4F82EE</color>
+    <color name="simpanin_on_primary">#FFFFFF</color>
+    <color name="simpanin_on_primary_muted">#D9FFFFFF</color>
+    <color name="simpanin_secondary">#34C4B3</color>
+    <color name="simpanin_on_secondary">#04201C</color>
+    <color name="simpanin_background">#121316</color>
+    <color name="simpanin_surface">#1C1D21</color>
+    <color name="simpanin_text_primary">#F3F4F6</color>
+    <color name="simpanin_text_secondary">#9CA3AF</color>
+    <color name="simpanin_error">#F2655B</color>
+    <color name="simpanin_warning">#FBBF24</color>
+    <color name="simpanin_success">#22C55E</color>
+
+    <color name="simpanin_gradient_start">#2F55B8</color>
+    <color name="simpanin_gradient_end">#4B3BA8</color>
+
+    <color name="simpanin_chip_selected">#2A3F6E</color>
+    <color name="simpanin_on_chip_selected">#D6E2FF</color>
+    <color name="simpanin_scrim">#99000000</color>
+    <color name="simpanin_heart">#FF6B86</color>
+</resources>
