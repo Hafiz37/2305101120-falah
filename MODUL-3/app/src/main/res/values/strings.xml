@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simpanin</string>
+    <string name="overline_module">MODUL 3 - GAYA &amp; TEMA ANDROID</string>
+    <string name="title_gallery">Galeri</string>
+    <string name="subtitle_gallery">Kumpulan gambar Simpanin, ketuk untuk melihat lebih besar</string>
+    <string name="label_count">%1$d Gambar</string>
+    <string name="label_image">Gambar %1$d</string>
+    <string name="desc_image">Gambar nomor %1$d</string>
+    <string name="preview_caption">Gambar %1$d · Ketuk untuk menutup</string>
+</resources>

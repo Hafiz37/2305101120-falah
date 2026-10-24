@@ -4,6 +4,16 @@ Aplikasi Android sederhana yang menampilkan galeri 15 gambar dalam bentuk **Grid
 
 ---
 
+## Preview
+
+<p align="center">
+  <img src="screanshoot/tampilan-01.jpeg" alt="Tampilan 1 - Galeri Simpanin" width="260">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screanshoot/tampilan-02.jpeg" alt="Tampilan 2 - Galeri Simpanin" width="260">
+</p>
+
+---
+
 ## Fitur
 
 - Header berisi nama aplikasi dan badge jumlah Bagian (otomatis dihitung dari adapter).
